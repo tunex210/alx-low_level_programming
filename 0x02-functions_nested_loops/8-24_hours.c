@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * jack_bauer - a function that prints every minute of the day of Jack Bauer,
@@ -6,6 +6,7 @@ include "main.h"
  * Description: function prints every minute in one day
  * Return: Nothing
  */
+
 void jack_bauer(void)
 {
 	int H, M;
