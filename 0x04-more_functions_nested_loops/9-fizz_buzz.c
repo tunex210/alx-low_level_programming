@@ -1,4 +1,4 @@
-#include "main.h"
+include "main.h"
 #include <stdio.h>
 
 /**
@@ -12,19 +12,19 @@
 int main(void)
 {
 	int i;
-	for ( i = 1; i < 100 ; i++)
+
+	for (i = 1; i < 100 ; i++)
 	{
 		if ((i % 15) == 0)
-			printf("FizzBuzz");
-		if ((i % 3) == 0)
-			printf("fizz");
-		if ((i % 5) == 0)
-			printf("Buzz");
+			printf("FizzBuzz ");
+		else if ((i % 3) == 0)
+			printf("Fizz ");
+		else if ((i % 5) == 0)
+			printf("Buzz ");
 		else
 			printf("%d ", i);
 	}
 	printf("Buzz\n");
 
-	return(0);
+	return (0);
 }
-
