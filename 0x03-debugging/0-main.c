@@ -11,7 +11,7 @@
 	int i;
 
 	i = 98;
-	positive_negative(i);
+	positive_or_negative(i);
 
 	return (0);
  }
