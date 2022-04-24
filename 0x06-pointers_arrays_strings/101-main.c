@@ -1,3 +1,5 @@
+#include "maim.h"
+
 /**
  * main - check the code
  *
